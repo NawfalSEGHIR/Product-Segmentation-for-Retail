@@ -8,6 +8,7 @@
 In this project, we will try to do a product segmentation using Python. We will study our products sales in term of:
 
 •	Contribution to our total Turnover using ABC Analysis
+
 •	Demand stability i.e Variability
 
 1.	Problem Statement 
@@ -22,7 +23,9 @@ https://www.kaggle.com/c/m5-forecasting-accuracy/data
 We suppose that we only have the first-year data (d_1 to d_365):
 
 •	10 stores in 3 states (USA)
+
 •	1,878 unique SKU
+
 •	3 categories and 7 departments (sub-category)
 
 3.	Products Rotation
@@ -30,12 +33,15 @@ We suppose that we only have the first-year data (d_1 to d_365):
 We classify our items by sales: 
 
 •	Very fast Movers are the top 5% most selling products (Class A)
+
 •	Fast Movers are the following 15% (Class B)
+
 •	Slow movers are the remaining 80% (Class C)
 
 This classification will impact our: 
 
 •	Warehouse Layout
+
 •	Picking Process
 
 4.	Demand Variability
@@ -43,7 +49,9 @@ This classification will impact our:
 Now we should study our customer’s Demand trough:
 
 •	Average sales: µ
+
 •	Standard Deviation: σ
+
 •	Coefficient of Variation: CV = σ/ µ
 
 For SKUs with a high value of CV, you may face unstable customer demand (Peaks of Demand or Volatility) that would lead to workload peaks, forecasting complexity and stock-outs.
